@@ -1,0 +1,40 @@
+html{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container{
+    text-align: center;   
+    background-color: hsl(0, 0%, 100%);
+    width: 30%;
+    height: 550px;
+    align-self: center;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 15rem;
+
+}
+img{
+    width: 90%;
+    margin: 20px 20px 20px 20px;
+    border-radius: 8px;
+}
+
+.catch{
+    font-weight: 700;
+    width: 80%;
+    margin: auto;
+}
+
+.info{
+    font-weight: 400;
+    opacity: 0.5;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
