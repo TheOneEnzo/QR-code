@@ -1,3 +1,57 @@
 body{
     background-color: hsl(221, 100%, 96%);
 }
+
+.main-container{
+    display: flex;
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    margin-top: 20vh;
+    margin-left: 30vw;
+}
+
+.results{
+    background-image: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    flex: 0.5;
+    border-radius: 32px;
+}
+.summary{
+    display: flex;
+    background-color: white;
+    flex: 0.5;
+    border-radius: 8px;
+    flex-direction: column;
+}
+.stats{
+    width: 70%;
+    align-self: center;
+    
+}
+
+#red{
+    background-color: hsla(0, 100%, 67%, 30%);
+    
+}
+
+#yellow{
+    background-color: hsla(39, 100%, 56%, 30%);
+    
+}
+
+#green{
+    background-color: hsla(166, 100%, 37%, 30%);
+    
+}
+
+#blue{
+    background-color: hsla(234, 85%, 45%, 30%);
+    
+}
+
+#text{
+    display: block;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-bottom: 1vh;
+}
