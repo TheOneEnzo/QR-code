@@ -138,7 +138,7 @@ img{
 
 .circle{
     height: 175px;
-    width: 175  px;
+    width: 175px;
     
     background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)) ;
     border-radius: 50%;
@@ -182,8 +182,17 @@ img{
     font-family: 'Outfit', sans-serif;
 }
 
-1340
-
-@media screen (min-width: 1340px){
+@media screen and (max-width: 1340px){
     
+    html,
+    body{
+        overflow-x: hidden;
+        width: 500px;
+    }
+
+    
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
 }
